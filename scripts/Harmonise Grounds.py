@@ -1,8 +1,13 @@
 # This script loops through all .nec files under the path below (including those in subfolders)
 # and creates a .nec.new file containing the contents of the nec file
-# if a line starts with GN, it is ignored and replaced by the string specifid in newground below
-# remove the comments in the last two lines causes the script to additionally 
-# a) rename the each nec file to .nec.old and b) rename the .nec.new file to .nec
+# if a line starts with GN, it is ignored and replaced by the string specified in "newground" below
+#
+# TO RUN:
+# Make sure Python is installed
+# Edit path and newground as appropriate
+# Optionally remove the comments in the last two lines to cause the script to additionally a) rename the each nec file to .nec.old and b) rename the .nec.new file to .nec
+# Open a command window, change directory to wherever you've saved this script, and type Python "Harmonise Grounds.py"
+#
 # USE AT YOUR OWN RISK & BACK UP important files FIRST
 
 path=r"C:\Users\drala\OneDrive\Desktop\NEC\HF Antennas"
